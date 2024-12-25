@@ -1,0 +1,33 @@
+1725
+
+9BA87AA4B9839DD1540E444A5C1AA7D125C7C2327990496395125644B53959FE
+
+
+
+➜  artifacts git:(main) xiond tx wasm instantiate "$CODE_ID" "$MSG" \
+--from test --label "test nft" --gas-prices 0.025uxion --gas auto --gas-adjustment 1.3 -y --no-admin --chain-id xion-testnet-1 --node https://rpc.xion-testnet-1.burnt.com:443
+
+gas estimate: 211010
+code: 0
+codespace: ""
+data: ""
+events: []
+gas_used: "0"
+gas_wanted: "0"
+height: "0"
+info: ""
+logs: []
+raw_log: ""
+timestamp: ""
+tx: null
+txhash: EF860788DC892EEEB64C153334A363D01192C4700A05D9A8C497B909F18EA8CA
+
+
+
+  - index: true
+    key: _contract_address
+    value: xion1gan48xxswpwtnrwzaxusxjep8le4ruc07nr07yxwhnywsmq6p5mqcqfys2
+  - index: true
+    key: code_id
+    value: "1725"
+  - index: true
